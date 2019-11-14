@@ -1,0 +1,9 @@
+.DS_Store
+.idea
+nbproject
+/vendor
+/public/*
+!/public/typo3conf
+/public/typo3conf/*
+!/public/typo3conf/LocalConfiguration.php
+!/public/typo3conf/AdditionalConfiguration.php
