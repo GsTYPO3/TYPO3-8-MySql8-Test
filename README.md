@@ -12,7 +12,5 @@ Testing TYPO3 8.7 with Mysql 8
 
 * Download this [package](https://github.com/GsTYPO3/TYPO3-8-MySql8-Test/releases/latest) and extract it to a local folder
 * Go to the folder in your bash / git-bash
-* Run `touch public/FIRST_INSTALL`
 * Run `ddev start`
-* Run `ddev composer install`
 * Run `ddev launch`

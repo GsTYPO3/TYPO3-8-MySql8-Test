@@ -14,6 +14,10 @@ nfs_mount_enabled: false
 provider: default
 use_dns_when_possible: true
 timezone: ""
+hooks:
+  post-start:
+    - exec: composer install -d /var/www/html
+    - exec: test -e /var/www/html/public/typo3conf/LocalConfiguration.php || touch /var/www/html/public/FIRST_INSTALL
 
 
 # This config.yaml was created with ddev version v1.12.0-alpha2
