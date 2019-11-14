@@ -14,5 +14,5 @@ Testing TYPO3 8.7 with Mysql 8
   and extract it on your local system
 * Go to the newly created folder in your bash / git-bash
 * Run `ddev start`
-* If you see the warning `Trusted hosts pattern mismatch` during the
-  `System environment check`, click `I know what I'm doing, continue!`
+
+Use user `admin` with password `password` to login to the backend or the install tool.

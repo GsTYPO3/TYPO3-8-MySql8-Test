@@ -17,8 +17,7 @@ timezone: ""
 hooks:
   post-start:
     - exec: composer install -d /var/www/html
-    - exec: test -e /var/www/html/public/typo3conf/LocalConfiguration.php || touch /var/www/html/public/FIRST_INSTALL
-    - exec-host: ddev launch
+    - exec-host: ddev launch typo3
 
 
 # This config.yaml was created with ddev version v1.12.0-alpha2
