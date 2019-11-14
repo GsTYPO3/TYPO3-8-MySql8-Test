@@ -3,3 +3,4 @@
 /public/typo3conf/*
 !/public/typo3conf/.gitkeep
 /vendor
+composer.lock
