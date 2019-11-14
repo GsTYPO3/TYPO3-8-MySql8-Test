@@ -14,4 +14,5 @@ Testing TYPO3 8.7 with Mysql 8
 * Go to the folder in your bash / git-bash
 * Run `touch public/FIRST_INSTALL`
 * Run `ddev start`
+* Run `ddev composer install`
 * Run `ddev launch`
