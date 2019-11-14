@@ -1,5 +1,5 @@
 APIVersion: v1.12.0-alpha2
-name: t3-8-mysql8
+name: typo3-8-mysql-8-test
 type: typo3
 docroot: public
 php_version: "7.2"

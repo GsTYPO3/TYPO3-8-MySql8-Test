@@ -1,33 +1,34 @@
 {
+	"name": "gstypo3/cms-8-mysql-8",
+	"description" : "TYPO3 CMS 8.7 with MySql 8",
+	"license": "GPL-3.0-or-later",
+	"require": {
+		"helhum/typo3-console": "^5.7.2",
+		"typo3/minimal": "^8",
+		"typo3/cms-about": "^8.7.29",
+		"typo3/cms-belog": "^8.7.29",
+		"typo3/cms-beuser": "^8.7.29",
+		"typo3/cms-context-help": "^8.7.29",
+		"typo3/cms-documentation": "^8.7.29",
+		"typo3/cms-felogin": "^8.7.29",
+		"typo3/cms-fluid-styled-content": "^8.7.29",
+		"typo3/cms-form": "^8.7.29",
+		"typo3/cms-func": "^8.7.29",
+		"typo3/cms-impexp": "^8.7.29",
+		"typo3/cms-info": "^8.7.29",
+		"typo3/cms-info-pagetsconfig": "^8.7.29",
+		"typo3/cms-rte-ckeditor": "^8.7.29",
+		"typo3/cms-setup": "^8.7.29",
+		"typo3/cms-sys-note": "^8.7.29",
+		"typo3/cms-t3editor": "^8.7.29",
+		"typo3/cms-tstemplate": "^8.7.29",
+		"typo3/cms-viewpage": "^8.7.29",
+		"typo3/cms-wizard-crpages": "^8.7.29",
+		"typo3/cms-wizard-sortpages": "^8.7.29"
+	},
 	"repositories": [
 		{ "type": "composer", "url": "https://composer.typo3.org/" }
 	],
-	"name": "typo3/cms-base-distribution",
-	"description" : "TYPO3 CMS Base Distribution",
-	"license": "GPL-2.0-or-later",
-	"require": {
-		"helhum/typo3-console": "^4.9.3 || ^5.2",
-		"typo3/cms-about": "^8.7.10",
-		"typo3/cms-belog": "^8.7.10",
-		"typo3/cms-beuser": "^8.7.10",
-		"typo3/cms-context-help": "^8.7.10",
-		"typo3/cms-documentation": "^8.7.10",
-		"typo3/cms-felogin": "^8.7.10",
-		"typo3/cms-fluid-styled-content": "^8.7.10",
-		"typo3/cms-form": "^8.7.10",
-		"typo3/cms-func": "^8.7.10",
-		"typo3/cms-impexp": "^8.7.10",
-		"typo3/cms-info": "^8.7.10",
-		"typo3/cms-info-pagetsconfig": "^8.7.10",
-		"typo3/cms-rte-ckeditor": "^8.7.10",
-		"typo3/cms-setup": "^8.7.10",
-		"typo3/cms-sys-note": "^8.7.10",
-		"typo3/cms-t3editor": "^8.7.10",
-		"typo3/cms-tstemplate": "^8.7.10",
-		"typo3/cms-viewpage": "^8.7.10",
-		"typo3/cms-wizard-crpages": "^8.7.10",
-		"typo3/cms-wizard-sortpages": "^8.7.10"
-	},
 	"scripts":{
 		"typo3-cms-scripts": [
 			"typo3cms install:fixfolderstructure",
@@ -40,10 +41,6 @@
 	"extra": {
 		"typo3/cms": {
 			"web-dir": "public"
-		},
-		"helhum/typo3-console": {
-			"comment": "This option is not needed ay more for helhum/typo3-console 5.x",
-			"install-extension-dummy": false
 		}
 	}
 }
